@@ -71,6 +71,9 @@ else:
 python job_search.py
 ```
 
-##Expected output
+> [!NOTE]
+> You may need to try `python3.12 job_search.py` or `python3 job_search.py` if you have other versions of Python on your machine.
+
+## Expected output
 
 A file named `ai_jobs_YYYY-MM-DD.csv` saved to your current directory. This file contains deduplicated job listings from Indeed and LinkedIn. LinkedIn may skip some search terms. This is expected behavior.
